@@ -86,6 +86,7 @@ Customer Responsible for SECURITY “IN” THE CLOUD
 - Elastic Beanstalk –  an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.
 - Simple Notification Service (SNS) – fully managed sub/pub messaging for microservices, distributed systems, and serverless applications
 - Simple Queue Services (SQS) – fully managed message queues for microservices, distributed systems, and serverless applications
+- CloudTrail – track user activity and API usage  
 
 ### Identify resources for technology support 
 - Proactive Guidance via Technical Account Manager (TAM)
