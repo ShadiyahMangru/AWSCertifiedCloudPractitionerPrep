@@ -4,7 +4,8 @@
 
 ### Define the AWS Cloud and its value proposition 
 - AWS Cloud: Delivering geographically-distributed IT resources on demand.
-- Value Proposition: Trade Capital Expense for variable expense (instead of having to invest heavily in data centers and servers before you know how you’re going to use them, you can only pay when you consume computing resources, and only pay for how much you consume).
+- NIST definition of Cloud Computing: “Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.”
+- Value Proposition: Trade Capital Expense for Variable Expense (instead of having to invest heavily in data centers and servers before you know how you’re going to use them, you can only pay when you consume computing resources, and only pay for how much you consume).
 ### Identify aspects of AWS Cloud economics
 - Reduce/stop spending money on running and maintaining data centers
 - Leverage elasticity to match supply with fluctuating demand
@@ -43,7 +44,11 @@ Customer Responsible for SECURITY “IN” THE CLOUD
   - NACL rules are applied to all EC2 instances in the associated subnet; security groups are applied on a per-instance basis
 - IAM is the AWS user management, authentication, and authorization service (IAM roles a secure way to grant permissions to entities that you trust to access AWS resources)
   - 5 areas of IAM: manage user password, manage access keys, manage signing certificates, delete user, add user to groups
+- Identity and Access Management (IAM) Policies: 
+   - To manage access in AWS: (i) create a policy defining permissions, (ii) associate policy with an identity or resource
+   - AWS supports six types of policies: identity-based policies, resource-based policies, permissions boundaries, Organizations SCPs, ACLs, and session policies
 - To enable clients to sign-up and sign-in to your mobile and web app, use Amazon Cognito
+- NAT Gateways: You can use a network address translation (NAT) gateway to enable instances in a private subnet to connect to the internet or other AWS services, but prevent the internet from initiating a connection with those instances.
 ### Identify resources for security support 
 - AWS Security Blog
 
@@ -67,6 +72,11 @@ Customer Responsible for SECURITY “IN” THE CLOUD
   - Supports versioning
   - Can define following actions on objects: Archive Only, Permanently Delete Only, Archive and then Permanently Delete
   - Billed for storage, requests, data transfer
+- Amazon S3 Storage Classes:
+   - Standard: general-purpose storage of frequently accessed data
+   - Infrequent Access (IA): for long-lived but less frequently accessed data
+   - Glacier: long-term archive and digital preservation
+   - Intelligent-Tiering: unknown or changing access
 - Global Infrastructure
 - VPC
   - An isolated virtual network on AWS cloud
@@ -88,6 +98,7 @@ Customer Responsible for SECURITY “IN” THE CLOUD
 - Simple Queue Services (SQS) – fully managed message queues for microservices, distributed systems, and serverless applications
 - CloudTrail – track user activity and API usage  
 - DynamoDB – fast and flexible NoSQL database service for any scale 
+- AWS Key Management Service (KMS) – easily create and manage keys and control the use of encryption across a wide range of AWS services and in your applications.
 
 ### Identify resources for technology support 
 - Proactive Guidance via Technical Account Manager (TAM)
@@ -113,18 +124,4 @@ Customer Responsible for SECURITY “IN” THE CLOUD
 
 <br>
 
-- **NIST definition of Cloud Computing:** “Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.”
-
-- **AWS KMS:** AWS Key Management Service (KMS) makes it easy for you to create and manage keys and control the use of encryption across a wide range of AWS services and in your applications.
-
-- **NAT Gateways:** You can use a network address translation (NAT) gateway to enable instances in a private subnet to connect to the internet or other AWS services, but prevent the internet from initiating a connection with those instances.
-
 - **Instance store** volumes for your EC2 instance delete root volume configuration when you terminate the instance.
-
-- **Amazon S3 Storage Classes:** 
-   - Standard: general-purpose storage of frequently accessed data
-   - Infrequent Access (IA): for long-lived but less frequently accessed data
-   - Glacier: long-term archive and digital preservation
-   - Intelligent-Tiering: unknown or changing access
-
-- **Identity and Access Management (IAM) Policies:** You manage access in AWS by creating policies and attaching them to IAM identities (users, groups of users, or roles) or AWS resources. A policy is an object in AWS that, when associated with an identity or resource, defines their permissions. AWS evaluates these policies when a principal entity (user or role) makes a request. Permissions in the policies determine whether the request is allowed or denied. Most policies are stored in AWS as JSON documents. AWS supports six types of policies: identity-based policies, resource-based policies, permissions boundaries, Organizations SCPs, ACLs, and session policies.
