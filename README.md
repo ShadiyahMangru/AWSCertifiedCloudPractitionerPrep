@@ -117,11 +117,10 @@ Customer Responsible for SECURITY “IN” THE CLOUD
 <br>
 
 ## Additional Notes:
-- Software as a Service (SaaS)
-- Platform as a Service (PaaS) – SQS, SNS, SES, Amazon SQ, Elastic Beanstalk
-- Infrastructure as a Service (IaaS)—e.g., Regions, Availability Zones, Edge Locations
+- Software as a Service (SaaS) – end-user applications
+- Platform as a Service (PaaS) – remove need for organizations to manage underlying infrastructure (e.g., SQS, SNS, SES, Amazon SQ, Elastic Beanstalk)
+- Infrastructure as a Service (IaaS) — basic building blocks for cloud IT; provide access to networking features, computers (virtual or on dedicated hardware), and data storage space (e.g., Regions, Availability Zones, Edge Locations)
 - Anything as a Service (XaaS) – Internet of Things (IOT)
-
 <br>
 
 - **Instance store** volumes for your EC2 instance delete root volume configuration when you terminate the instance.
