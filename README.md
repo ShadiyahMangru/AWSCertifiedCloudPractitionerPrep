@@ -87,6 +87,7 @@ Customer Responsible for SECURITY “IN” THE CLOUD
 - Simple Notification Service (SNS) – fully managed sub/pub messaging for microservices, distributed systems, and serverless applications
 - Simple Queue Services (SQS) – fully managed message queues for microservices, distributed systems, and serverless applications
 - CloudTrail – track user activity and API usage  
+- DynamoDB – fast and flexible NoSQL database service for any scale 
 
 ### Identify resources for technology support 
 - Proactive Guidance via Technical Account Manager (TAM)
