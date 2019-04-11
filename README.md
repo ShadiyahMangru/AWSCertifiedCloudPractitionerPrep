@@ -73,6 +73,20 @@ Customer Responsible for SECURITY “IN” THE CLOUD
   - By default, ports are off
   - Subnets within Availability Zone (A-Z).
 - Security Groups
+
+- Redshift – fast, simple, cost-effective data warehouse that can extend queries to your data lake
+- Aurora – MySQL and PostgreSQL-compatible relational database built for the cloud
+- CloudFront – fast, highly secure and programmable content delivery network (CDN)
+- CloudFormation – model and provision all of your cloud infrastructure resources
+- CloudWatch – complete visibility (monitoring and management) of your cloud resources and applications
+- Kinesis – easily collect, process, and analyze video and data streams in real time
+- AWS Lambda – run code without thinking about (provisioning or managing) servers; pay only for the compute time you consume
+- Route 53 – a highly available and scalable cloud Domain Name System (DNS) web service
+- Relational Database Service (RDS) – set up, operate, and scale a relational database in the cloud with just a few clicks.
+- Elastic Beanstalk –  an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.
+- Simple Notification Service (SNS) – fully managed sub/pub messaging for microservices, distributed systems, and serverless applications
+- Simple Queue Services (SQS) – fully managed message queues for microservices, distributed systems, and serverless applications
+
 ### Identify resources for technology support 
 - Proactive Guidance via Technical Account Manager (TAM)
 - Four support plans: basic, developer, business, enterprise
