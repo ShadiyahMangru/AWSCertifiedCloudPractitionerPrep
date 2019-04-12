@@ -57,10 +57,22 @@ Customer Responsible for SECURITY “IN” THE CLOUD
 ## Technology (36%)
 ### Define methods of deploying and operating in the AWS Cloud 
 - Access AWS through Management Console, CLI, SDKs
+- S3 (object storage) – can use to offload serving of content from your application; with URL-based access, clients can directly fetch data themselves from S3
+- VPC – defines an IP-address space
+- Elastic Beanstalk – allows quick and simple deployment of your web application; can quickly upload and deploy pre-existing code
+- EC2 – can create a webpage during new EC2 instance launch process (see directly below to install an Apache web server (httpd), configure web server to automatically start on boot, activate the Web server, create a simple web page)
+```
+#!/bin/bash
+yum -y install httpd
+systemct1 enable httpd
+systemct1 start httpd
+echo '<html><h1>Hello From Your Web Server!</h1></html>' >
+/var/www/html/index.html
+```
 ### Define the AWS global infrastructure 
-- Regions
-- Availability Zones
-- Edge Locations
+- Regions: geographic areas that host two or more A-Zs
+- Availability Zones: collection of data centers in a specific Region
+- Edge Locations: enable quicker content delivery (host a CDN called Amazon CloudFront)
 ### Identify the core AWS services 
 - EC2
    - t2 instance type (free tier) good for running Linux but not enough memory to run Windows OS with these
@@ -99,6 +111,7 @@ Customer Responsible for SECURITY “IN” THE CLOUD
 - CloudTrail – track user activity and API usage  
 - DynamoDB – fast and flexible NoSQL database service for any scale 
 - AWS Key Management Service (KMS) – easily create and manage keys and control the use of encryption across a wide range of AWS services and in your applications.
+- AWS Shield – A managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS.
 
 ### Identify resources for technology support 
 - Proactive Guidance via Technical Account Manager (TAM)
