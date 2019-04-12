@@ -129,7 +129,7 @@ echo '<html><h1>Hello From Your Web Server!</h1></html>' >
 
 <br>
 
-## Additional Notes:
+## Additional Notes
 - Software as a Service (SaaS) – end-user applications
 - Platform as a Service (PaaS) – remove need for organizations to manage underlying infrastructure (e.g., SQS, SNS, SES, Amazon SQ, Elastic Beanstalk)
 - Infrastructure as a Service (IaaS) — basic building blocks for cloud IT; provide access to networking features, computers (virtual or on dedicated hardware), and data storage space (e.g., Regions, Availability Zones, Edge Locations)
@@ -137,3 +137,9 @@ echo '<html><h1>Hello From Your Web Server!</h1></html>' >
 <br>
 
 - **Instance store** volumes for your EC2 instance delete root volume configuration when you terminate the instance.
+
+## Sources
+- aws.amazon.com websites, docs.aws.amazon.com websites
+- qwiklabs.com
+- WebAgeSolutions (AWS Practitioner Exam Prep Course)
+- AWS Cloud Practitioner Essentials (Second Edition) online exam prep videos
